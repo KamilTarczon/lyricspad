@@ -74,12 +74,12 @@ class _itemsScreen extends State<itemsScreen> {
                                       onPressed: () async {
                                         deleteFile(result[index]);
                                       },
-                                      icon: Icon(Icons.delete)),
+                                      icon: const Icon(Icons.delete)),
                                   IconButton(
                                       onPressed: () async {
                                         readFromFile(result[index]);
                                       },
-                                      icon: Icon(Icons.download))
+                                      icon: const Icon(Icons.archive_outlined))
                                 ],
                               )
                             ]),
